@@ -243,6 +243,7 @@ namespace DataStructures.Heaps
                     break;
 
             _heap[i].Priority = newPriority;
+            _heap.Rebuild();
         }
 
         /// <summary>
